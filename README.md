@@ -17,20 +17,24 @@
 
 🧪 Git-Tests
 
-#✔️ Commit mit README.md
-#echo "# Mein QuizHero Projekt" > README.md
-#git add README.md
-#git commit -m "📝 Initial commit mit README"
+✔️ Commit mit README.md
+
+echo "# Mein QuizHero Projekt" > README.md
+git add README.md
+git commit -m "📝 Initial commit mit README"
 
 ✔️ git diff Beispiel
+
 echo "neuer Text" >> README.md
 git diff
 
 ✔️ git rm Beispiel
+
 git rm test.txt
 git commit -m "🗑️ Datei test.txt gelöscht"
 
 ✔️ git mv Beispiel
+
 git mv alt.txt neu.txt
 git commit -m "✏️ alt.txt in neu.txt umbenannt"
 
