@@ -52,9 +52,9 @@ Ich habe eine alte Version der Datei wiederhergestellt, ohne das Repository zur�
 Ich habe einen Commit bewusst rückgängig gemacht: git revert HEAD. Dies erstellt einen neuen Commit, der den letzten rückgängig macht.
 
 Ich habe verschiedene Varianten ausprobiert:
-git reset --soft HEAD~1     # Commit gelöscht, Änderungen gestaged
-git reset --mixed HEAD~1    # Commit gelöscht, Änderungen behalten
-git reset --hard HEAD~1     # Commit + Änderungen entfernt
+git reset --soft HEAD~1      (Commit gelöscht, Änderungen gestaged)
+git reset --mixed HEAD~1     (Commit gelöscht, Änderungen behalten)
+git reset --hard HEAD~1      (Commit + Änderungen entfernt)
 
 Mit: git reflog konnte ich alte Zustände anzeigen lassen. Ich habe z. B. mit: git checkout 
 
